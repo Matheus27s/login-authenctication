@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, input, button {
+  color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 100%;
+}
+
+form {
+  padding: 20px;
+  background-color: rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+input, button {
+  background-color: #fff;
+  padding: 4px;
+  width: 100%;
+}
+
+button {
+  margin-top: 20px;
+}
+
+label {
+  color: #fff;
+}
+
+ul {
+  background-color: #ccc;
+  list-style: none;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+}
+
+li {
+  padding: 10px;
+}
